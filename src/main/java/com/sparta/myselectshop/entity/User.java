@@ -3,8 +3,6 @@ package com.sparta.myselectshop.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-
 @Getter
 @NoArgsConstructor
 @Entity(name = "users")
@@ -35,4 +33,5 @@ public class User {
         this.email = email;
         this.role = role;
     }
+
 }
